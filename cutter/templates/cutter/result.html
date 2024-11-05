@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Código Cutter Gerado:</h2>
+    <p>{{ codigo_cutter }}</p>
+    <a href="{% url 'cutter:gerar_cutter' %}" class="btn btn-secondary">Voltar</a>
+</div>
+{% endblock %}

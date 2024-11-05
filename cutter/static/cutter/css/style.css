@@ -1,0 +1,17 @@
+.bg-red {
+    background-color: red;  /* Cor de fundo vermelho */
+    border-radius: 5px;     /* Borda arredondada */
+    text-align: center;      /* Centraliza o conteúdo */
+    padding: 20px;          /* Espaçamento interno */
+}
+
+.bg-red img {
+    max-width: 100%;        /* A imagem não ultrapassa a largura da div */
+    height: auto;           /* Mantém a proporção da imagem */
+}
+
+.bg-red img {
+    max-width: 100%;         /* A imagem não ultrapassa a largura da div */
+    max-height: 150px;      /* Ajuste para um tamanho desejado */
+    height: auto;           /* Mantém a proporção da imagem */
+}
